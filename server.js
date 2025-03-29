@@ -17,6 +17,7 @@ app.get("/", (req, res) => {
 // Example CRUD API for Users
 let users = [
     {
+      "id":1,
       "name": "Dr. John Doe",
       "experience": "10 years",
       "degree": "MBBS, MD (Cardiology)",
@@ -31,6 +32,7 @@ let users = [
       "conditions": ["Coronary Artery Disease", "Heart Failure", "Arrhythmias"]
     },
     {
+      "id":2,
       "name": "Dr. Jane Smith",
       "experience": "15 years",
       "degree": "MBBS, MS (Dermatology)",
@@ -45,6 +47,7 @@ let users = [
       "conditions": ["Eczema", "Psoriasis", "Skin Cancer", "Acne"]
     },
     {
+      "id":3,
       "name": "Dr. David Lee",
       "experience": "8 years",
       "degree": "MBBS, DM (Pediatrics)",
@@ -59,6 +62,7 @@ let users = [
       "conditions": ["Asthma", "Allergies", "Infections", "Developmental Delays"]
     },
     {
+      "id":4,
       "name": "Dr. Sarah Jones",
       "experience": "12 years",
       "degree": "MBBS, DNB (Orthopedic Surgery)",
@@ -73,6 +77,7 @@ let users = [
       "conditions": ["Arthritis", "Sports Injuries", "Fractures", "Spinal Disorders"]
     },
     {
+      "id":5,
       "name": "Dr. Michael Brown",
       "experience": "20 years",
       "degree": "MBBS, FRCS (Neurosurgery)",
@@ -86,7 +91,8 @@ let users = [
       "treatments": ["Brain Tumor Surgery", "Spinal Fusion", "Craniotomy", "Neurological Monitoring"],
       "conditions": ["Brain Tumors", "Spinal Cord Injuries", "Stroke", "Epilepsy"]
     },
-      {
+      
+    { "id":6,
       "name": "Dr. Emily Wilson",
       "experience": "7 years",
       "degree": "MBBS, MRCP (Gastroenterology)",
@@ -101,6 +107,7 @@ let users = [
       "conditions": ["IBD", "GERD", "Liver Disease", "Pancreatitis"]
     },
     {
+      "id":7,
       "name": "Dr. Robert Garcia",
       "experience": "18 years",
       "degree": "MBBS, FRCSEd (Obstetrics and Gynecology)",
@@ -115,6 +122,7 @@ let users = [
       "conditions": ["Pregnancy Complications", "Endometriosis", "Fibroids", "Menopause"]
     },
     {
+      "id":8,
       "name": "Dr. Jessica Rodriguez",
       "experience": "9 years",
       "degree": "MBBS, MCh (Urology)",
@@ -129,6 +137,7 @@ let users = [
       "conditions": ["Kidney Stones", "Prostate Cancer", "Urinary Tract Infections", "Erectile Dysfunction"]
     },
     {
+      "id":9,
       "name": "Dr. Christopher Martinez",
       "experience": "14 years",
       "degree": "MBBS, MD(Res) (Pulmonology)",
@@ -144,6 +153,7 @@ let users = [
     },
   
     {
+      "id":10,
       "name": "Dr. Ashley Anderson",
       "experience": "6 years",
       "degree": "MBBS, DGO (Ophthalmology)",
@@ -158,6 +168,7 @@ let users = [
       "conditions": ["Cataracts", "Glaucoma", "Macular Degeneration", "Diabetic Retinopathy"]
     },
     {
+      "id":11,
       "name": "Dr. Matthew Thomas",
       "experience": "11 years",
       "degree": "MBBS, MS (ENT)",
@@ -172,6 +183,7 @@ let users = [
       "conditions": ["Sinusitis", "Tonsillitis", "Hearing Loss", "Sleep Apnea"]
     },
     {
+      "id":12,
       "name": "Dr. Amanda Jackson",
       "experience": "16 years",
       "degree": "MBBS, DNB (Neurology)",
@@ -186,6 +198,7 @@ let users = [
       "conditions": ["Stroke", "Epilepsy", "Parkinson's Disease", "Migraines"]
     },
     {
+      "id":13,
       "name": "Dr. Joshua White",
       "experience": "8 years",
       "degree": "MBBS, DO (Family Medicine)",
@@ -200,6 +213,7 @@ let users = [
       "conditions": ["Hypertension", "Diabetes", "Common Cold", "Flu"]
     },
     {
+      "id":14,
       "name": "Dr. Nicole Harris",
       "experience": "19 years",
       "degree": "MBBS, MD (Oncology)",
@@ -214,6 +228,7 @@ let users = [
       "conditions": ["Breast Cancer", "Lung Cancer", "Prostate Cancer", "Leukemia"]
     },
     {
+      "id":15,
       "name": "Dr. Kevin Martin",
       "experience": "7 years",
       "degree": "MBBS, MRCS (General Surgery)",
@@ -228,6 +243,7 @@ let users = [
       "conditions": ["Appendicitis", "Hernias", "Gallstones", "Bowel Obstruction"]
     },
     {
+      "id":16,
       "name": "Dr. Stephanie Thompson",
       "experience": "13 years",
       "degree": "MBBS, DCH (Endocrinology)",
@@ -242,6 +258,7 @@ let users = [
       "conditions": ["Diabetes", "Thyroid Disorders", "Hormonal Imbalances", "Metabolic Disorders"]
     },
     {
+      "id":17,
       "name": "Dr. Brandon Perez",
       "experience": "10 years",
       "degree": "MBBS, DA (Anesthesiology)",
@@ -256,6 +273,7 @@ let users = [
       "conditions": ["Surgical Pain", "Chronic Pain", "Postoperative Pain", "Labor Pain"]
     },
     {
+      "id":18,
       "name": "Dr. Melissa Lewis",
       "experience": "17 years",
       "degree": "MBBS, MD(Ger) (Geriatrics)",
@@ -270,6 +288,7 @@ let users = [
       "conditions": ["Dementia", "Alzheimer's Disease", "Parkinson's Disease", "Osteoporosis"]
     },
     {
+      "id":19,
       "name": "Dr. Ryan Walker",
       "experience": "9 years",
       "degree": "MBBS, DMRD (Radiology)",
@@ -284,6 +303,7 @@ let users = [
       "conditions": ["Fractures", "Tumors", "Infections", "Cardiovascular Diseases"]
     },
     {
+      "id":20,
       "name": "Dr. Lauren Young",
       "experience": "12 years",
       "degree": "MBBS, MS(ENT) (Otolaryngology)",
